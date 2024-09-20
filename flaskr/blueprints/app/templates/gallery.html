@@ -19,9 +19,6 @@
                 <div class="card-body">
                   <p class="card-text">Elephant go brr.</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    </div>
                     <small class="text-body-secondary">$3.50</small>
                   </div>
                 </div>
@@ -29,13 +26,12 @@
             </div>
             <div class="col">
                 <div class="card shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="{{ url_for('static', filename='images/content/2.jpg') }}" alt="Thumbnail" width="100%" height="300">
+                  <a href="{{ url_for('gallery.image', image_name='2.jpg') }}">
+                    <img class="bd-placeholder-img card-img-top" src="{{ url_for('static', filename='images/content/2.jpg') }}" alt="Thumbnail" width="100%" height="300">
+                  </a>
                   <div class="card-body">
                     <p class="card-text">Sharknado.</p>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      </div>
                       <small class="text-body-secondary">$3.50</small>
                     </div>
                   </div>
@@ -43,13 +39,12 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="{{ url_for('static', filename='images/content/3.jpg') }}" alt="Thumbnail" width="100%" height="300">
+                  <a href="{{ url_for('gallery.image', image_name='3.jpg') }}">
+                    <img class="bd-placeholder-img card-img-top" src="{{ url_for('static', filename='images/content/3.jpg') }}" alt="Thumbnail" width="100%" height="300">
+                  </a>
                   <div class="card-body">
                     <p class="card-text">Timeless.</p>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      </div>
                       <small class="text-body-secondary">$3.50</small>
                     </div>
                   </div>
@@ -57,13 +52,12 @@
               </div>
               <div class="col">
                 <div class="card shadow-sm">
-                  <img class="bd-placeholder-img card-img-top" src="{{ url_for('static', filename='images/content/4.jpg') }}" alt="Thumbnail" width="100%" height="300">
+                  <a href="{{ url_for('gallery.image', image_name='4.jpg') }}">
+                    <img class="bd-placeholder-img card-img-top" src="{{ url_for('static', filename='images/content/4.jpg') }}" alt="Thumbnail" width="100%" height="300">
+                  </a>
                   <div class="card-body">
                     <p class="card-text">Birb.</p>
                     <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      </div>
                       <small class="text-body-secondary">$3.50</small>
                     </div>
                   </div>
